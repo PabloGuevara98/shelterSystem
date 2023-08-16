@@ -1,0 +1,37 @@
+{
+  "name": "backendsheltersystem",
+  "version": "1.0.0",
+  "description": "b",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloGuevara98/backendShelterSystem.git"
+  },
+  "keywords":[
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "ESPE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloGuevara98/backendShelterSystem/issues"
+  },
+  "homepage": "https://github.com/PabloGuevara98/backendShelterSystem#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
